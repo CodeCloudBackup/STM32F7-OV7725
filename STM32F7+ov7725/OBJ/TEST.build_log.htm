@@ -1,0 +1,220 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zzz 745587814@qq.com, aaa, LIC=MPPLD-839GY-GK5BG-V9QF9-LK2D4-12BS5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+E:\STM32F7+ov7725\USER\TEST.uvprojx
+Project File Date:  07/31/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling delay.c...
+compiling log.c...
+compiling test.c...
+compiling usart.c...
+compiling sys.c...
+compiling led.c...
+compiling sccb.c...
+..\HARDWARE\OV7725\sccb.c(21): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+PIOG->CRH&=0XFF0FFFFF;
+..\HARDWARE\OV7725\sccb.c(22): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+PIOG->CRH|=0X00800000;    
+..\HARDWARE\OV7725\sccb.c(25): error:  #136: struct "<unnamed>" has no field "CRL"
+  	
+PIOD->CRL&=0XFFFF0FFF;
+..\HARDWARE\OV7725\sccb.c(26): error:  #136: struct "<unnamed>" has no field "CRL"
+  	
+PIOD->CRL|=0X00003000;    
+..\HARDWARE\OV7725\sccb.c(28): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_OUT();	   
+..\HARDWARE\OV7725\sccb.c(28): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_OUT();	   
+..\HARDWARE\OV7725\sccb.c(36): warning:  #223-D: function "PGout" declared implicitly
+      
+CCB_SDA=1;     //?ý¾??ß¸ßµ?Æ½	   
+..\HARDWARE\OV7725\sccb.c(36): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SDA=1;     //?ý¾??ß¸ßµ?Æ½	   
+..\HARDWARE\OV7725\sccb.c(37): warning:  #223-D: function "PDout" declared implicitly
+      
+CCB_SCL=1;	    //??Ê±???ß¸ßµ?Ê±???ý¾????É¸??Áµ?
+..\HARDWARE\OV7725\sccb.c(37): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SCL=1;	    //??Ê±???ß¸ßµ?Ê±???ý¾????É¸??Áµ?
+..\HARDWARE\OV7725\sccb.c(39): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SDA=0;
+..\HARDWARE\OV7725\sccb.c(41): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SCL=0;	    //?ý¾??ß»Ö¸´µÍµ?Æ½£¬µ¥???÷º??ý±?Òª	  
+..\HARDWARE\OV7725\sccb.c(49): warning:  #223-D: function "PGout" declared implicitly
+      
+CCB_SDA=0;
+..\HARDWARE\OV7725\sccb.c(49): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SDA=0;
+..\HARDWARE\OV7725\sccb.c(51): warning:  #223-D: function "PDout" declared implicitly
+      
+CCB_SCL=1;	
+..\HARDWARE\OV7725\sccb.c(51): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SCL=1;	
+..\HARDWARE\OV7725\sccb.c(53): error:  #137: expression must be a modifiable lvalue
+      
+CCB_SDA=1;	
+..\HARDWARE\OV7725\sccb.c(60): warning:  #223-D: function "PGout" declared implicitly
+  	
+CCB_SDA=1;	
+..\HARDWARE\OV7725\sccb.c(60): error:  #137: expression must be a modifiable lvalue
+  	
+CCB_SDA=1;	
+..\HARDWARE\OV7725\sccb.c(61): warning:  #223-D: function "PDout" declared implicitly
+  	
+CCB_SCL=1;	
+..\HARDWARE\OV7725\sccb.c(61): error:  #137: expression must be a modifiable lvalue
+  	
+CCB_SCL=1;	
+..\HARDWARE\OV7725\sccb.c(63): error:  #137: expression must be a modifiable lvalue
+  	
+CCB_SCL=0;	
+..\HARDWARE\OV7725\sccb.c(65): error:  #137: expression must be a modifiable lvalue
+  	
+CCB_SDA=0;	
+..\HARDWARE\OV7725\sccb.c(75): warning:  #223-D: function "PGout" declared implicitly
+  		if(dat&0x80)
+CCB_SDA=1;	
+..\HARDWARE\OV7725\sccb.c(75): error:  #137: expression must be a modifiable lvalue
+  		if(dat&0x80)
+CCB_SDA=1;	
+..\HARDWARE\OV7725\sccb.c(76): warning:  #223-D: function "PGout" declared implicitly
+  		else 
+CCB_SDA=0;
+..\HARDWARE\OV7725\sccb.c(76): error:  #137: expression must be a modifiable lvalue
+  		else 
+CCB_SDA=0;
+..\HARDWARE\OV7725\sccb.c(79): warning:  #223-D: function "PDout" declared implicitly
+  		
+CCB_SCL=1;	
+..\HARDWARE\OV7725\sccb.c(79): error:  #137: expression must be a modifiable lvalue
+  		
+CCB_SCL=1;	
+..\HARDWARE\OV7725\sccb.c(81): error:  #137: expression must be a modifiable lvalue
+  		
+CCB_SCL=0;		   
+..\HARDWARE\OV7725\sccb.c(83): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_IN();		//????SDAÎª???? 
+..\HARDWARE\OV7725\sccb.c(83): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_IN();		//????SDAÎª???? 
+..\HARDWARE\OV7725\sccb.c(85): warning:  #223-D: function "PDout" declared implicitly
+  	
+CCB_SCL=1;			//???ÕµÚ¾?Î»,???Ð¶??Ç·ñ·??Í³É¹?
+..\HARDWARE\OV7725\sccb.c(85): error:  #137: expression must be a modifiable lvalue
+  	
+CCB_SCL=1;			//???ÕµÚ¾?Î»,???Ð¶??Ç·ñ·??Í³É¹?
+..\HARDWARE\OV7725\sccb.c(87): warning:  #223-D: function "PGin" declared implicitly
+  	if(
+CCB_READ_SDA)res=1;  //SDA=1·¢??Ê§?Ü£¬·µ»?1
+..\HARDWARE\OV7725\sccb.c(89): error:  #137: expression must be a modifiable lvalue
+  	
+CCB_SCL=0;		 
+..\HARDWARE\OV7725\sccb.c(90): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_OUT();		//????SDAÎª?ä³?    
+..\HARDWARE\OV7725\sccb.c(90): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_OUT();		//????SDAÎª?ä³?    
+..\HARDWARE\OV7725\sccb.c(99): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_IN();		//????SDAÎª????  
+..\HARDWARE\OV7725\sccb.c(99): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+CCB_SDA_IN();		//????SDAÎª????  
+..\HARDWARE\OV7725\sccb.c(103): warning:  #223-D: function "PDout" declared implicitly
+  		
+CCB_SCL=1;
+..\HARDWARE\OV7725\sccb.c(103): error:  #137: expression must be a modifiable lvalue
+  		
+CCB_SCL=1;
+..\HARDWARE\OV7725\sccb.c: 12 warnings, 30 errors
+compiling ov7725.c...
+..\HARDWARE\OV7725\ov7725.h(30): error:  #20: identifier "s8" is undefined
+  void OV7725_Color_Saturation(s8 sat);
+..\HARDWARE\OV7725\ov7725.h(31): error:  #20: identifier "s8" is undefined
+  void OV7725_Brightness(s8 bright);
+..\HARDWARE\OV7725\ov7725.h(32): error:  #20: identifier "s8" is undefined
+  void OV7725_Contrast(s8 contrast);
+..\HARDWARE\OV7725\ov7725.c(30): error:  #136: struct "<unnamed>" has no field "CRH"
+    	
+PIOA->CRH&=0XFFFFFFF0; 	   
+..\HARDWARE\OV7725\ov7725.c(31): error:  #136: struct "<unnamed>" has no field "CRH"
+    	
+PIOA->CRH|=0X00000008; 	//PA8 ????  
+..\HARDWARE\OV7725\ov7725.c(33): error:  #136: struct "<unnamed>" has no field "CRL"
+     	
+PIOB->CRL&=0XFFF00FFF; 	  
+..\HARDWARE\OV7725\ov7725.c(34): error:  #136: struct "<unnamed>" has no field "CRL"
+    	
+PIOB->CRL|=0X00033000; 	//PB3/4 ?ä³?
+..\HARDWARE\OV7725\ov7725.c(36): error:  #136: struct "<unnamed>" has no field "CRL"
+    	
+PIOC->CRL=0X88888888; 		//PC0~7 ????    
+..\HARDWARE\OV7725\ov7725.c(38): error:  #136: struct "<unnamed>" has no field "CRL"
+     	
+PIOD->CRL&=0XF0FFFFFF; 	//PD6 ?ä³?   
+..\HARDWARE\OV7725\ov7725.c(39): error:  #136: struct "<unnamed>" has no field "CRL"
+    	
+PIOD->CRL|=0X03000000; 	 
+..\HARDWARE\OV7725\ov7725.c(41): error:  #136: struct "<unnamed>" has no field "CRH"
+     	
+PIOG->CRH&=0X00FFFFFF; 	 
+..\HARDWARE\OV7725\ov7725.c(42): error:  #136: struct "<unnamed>" has no field "CRH"
+  	
+PIOG->CRH|=0X33000000;	    
+..\HARDWARE\OV7725\ov7725.c(44): warning:  #223-D: function "JTAG_Set" declared implicitly
+   	JTAG_Set(SWD_ENABLE);
+..\HARDWARE\OV7725\ov7725.c(44): error:  #20: identifier "SWD_ENABLE" is undefined
+   	JTAG_Set(SWD_ENABLE);
+..\HARDWARE\OV7725\ov7725.c(131): error:  #20: identifier "s8" is undefined
+  void OV7725_Color_Saturation(s8 sat)
+..\HARDWARE\OV7725\ov7725.c(141): error:  #20: identifier "s8" is undefined
+  void OV7725_Brightness(s8 bright)
+..\HARDWARE\OV7725\ov7725.c(188): error:  #20: identifier "s8" is undefined
+  void OV7725_Contrast(s8 contrast)
+..\HARDWARE\OV7725\ov7725.c: 1 warning, 16 errors
+"..\OBJ\TEST.axf" - 46 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\STM32F7+ov7725\USER\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

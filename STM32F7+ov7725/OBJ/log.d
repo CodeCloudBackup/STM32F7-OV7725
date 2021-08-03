@@ -1,0 +1,15 @@
+..\obj\log.o: log.c
+..\obj\log.o: log.h
+..\obj\log.o: ..\SYSTEM\usart\usart.h
+..\obj\log.o: ..\SYSTEM\sys\sys.h
+..\obj\log.o: ..\SYSTEM\sys\stm32f7xx.h
+..\obj\log.o: ..\SYSTEM\sys\stm32f767xx.h
+..\obj\log.o: ..\SYSTEM\sys\core_cm7.h
+..\obj\log.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\log.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\log.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\log.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\log.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\log.o: ..\SYSTEM\sys\system_stm32f7xx.h
+..\obj\log.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\log.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

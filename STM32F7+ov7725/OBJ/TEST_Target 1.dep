@@ -1,0 +1,112 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f767xx.s)(0x57AFF828)(--cpu Cortex-M7.fp.dp -g --apcs=interwork -IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F767xx SETA 1"--list ..\obj\startup_stm32f767xx.lst --xref -o ..\obj\startup_stm32f767xx.o --depend ..\obj\startup_stm32f767xx.d)
+F (.\test.c)(0x6105FDA2)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+I (..\SYSTEM\delay\delay.h)(0x57832187)
+I (..\HARDWARE\LED\led.h)(0x5783255C)
+I (..\SYSTEM\usart\usart.h)(0x57832187)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (log.h)(0x6105298B)
+F (.\log.c)(0x6105FD19)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\log.o --omf_browse ..\obj\log.crf --depend ..\obj\log.d)
+I (log.h)(0x6105298B)
+I (..\SYSTEM\usart\usart.h)(0x57832187)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+F (..\SYSTEM\delay\delay.c)(0x57832187)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x57832187)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+F (..\SYSTEM\sys\sys.c)(0x57F879A3)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+F (..\SYSTEM\usart\usart.c)(0x61051B4B)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+I (..\SYSTEM\usart\usart.h)(0x57832187)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\LED\led.c)(0x5783255C)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x5783255C)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+F (..\HARDWARE\OV7725\ov7725.c)(0x5D89F6C9)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\ov7725.o --omf_browse ..\obj\ov7725.crf --depend ..\obj\ov7725.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+I (..\HARDWARE\OV7725\ov7725.h)(0x59FA7EC0)
+I (..\HARDWARE\OV7725\sccb.h)(0x5822B9AA)
+I (..\HARDWARE\OV7725\ov7725cfg.h)(0x5A03DC9C)
+I (..\SYSTEM\delay\delay.h)(0x57832187)
+I (..\SYSTEM\usart\usart.h)(0x57832187)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\OV7725\sccb.c)(0x5822B9AA)(--c99 -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\OV7725-IE:\STM32F7+ov7725\USER\RTE-ID:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F767xx -DSTM32F767xx-o ..\obj\sccb.o --omf_browse ..\obj\sccb.crf --depend ..\obj\sccb.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (..\SYSTEM\sys\stm32f7xx.h)(0x5721C150)
+I (..\SYSTEM\sys\stm32f767xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (..\SYSTEM\sys\system_stm32f7xx.h)(0x5721C152)
+I (..\HARDWARE\OV7725\sccb.h)(0x5822B9AA)
+I (..\SYSTEM\delay\delay.h)(0x57832187)
+F (..\readme.txt)(0x57832B44)()
